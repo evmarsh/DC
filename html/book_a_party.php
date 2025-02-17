@@ -69,29 +69,44 @@
         </div>
     </nav>
 
-    <!-- The Modal -->
-    <div class="modal fade" id="myModal">
-        <div class="modal-dialog">
-            <div class="modal-content">
+    <div class="bg-dark py-5">
+      <div class="container bg-dark">
+        <!--Picture Carousel-->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
 
-                <!-- Modal Header -->
-                <div class="modal-header">
-                    <h4 class="modal-title">Oops...</h4>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                </div>
-
-                <!-- Modal body -->
-                <div class="modal-body">
-                    We are unable to take orders online at this time.
-                </div>
-
-                <!-- Modal footer -->
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
-                </div>
-
+          <!-- Indicators/dots -->
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+          </div>
+        
+          <!-- The slideshow/carousel -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="resources/wide_shot.jpg" alt="Banquet Room" class="d-block w-100">
             </div>
+            <div class="carousel-item">
+              <img src="resources/long_shot.jpg" alt="Set up table" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="resources/birthday.jpg" alt="Birthday Decorations" class="d-block w-100">
+            </div>
+            <div class="carousel-item">
+              <img src="resources/buffet.jpg" alt="Buffet" class="d-block w-100">
+            </div>
+          </div>
+        
+          <!-- Left and right controls/icons -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </button>
         </div>
+      </div>
     </div>
 
     <div class="container-fluid bg-light">
