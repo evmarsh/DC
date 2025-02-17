@@ -93,6 +93,9 @@
             <div class="carousel-item">
               <img src="resources/birthday.jpg" alt="Birthday Decorations" class="d-block w-100">
             </div>
+            <div class="carousel-item">
+              <img src="resources/buffet.jpg" alt="Buffet" class="d-block w-100">
+            </div>
           </div>
         
           <!-- Left and right controls/icons -->
