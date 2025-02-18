@@ -40,33 +40,39 @@
 <body>
     <!--Navigation Bar-->
     <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top py-2">
-        <div class="container-fluid h-50">
-            <a class="navbar-brand" href="index.html">
-                <img src="../resources/dcLogo.png" alt="Dick Clark's" style="width:50px" class="rounded-5">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-secondary px-4" href="hours_and_location.html">Hours & Location</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-secondary px-4" href="menu.html">Menu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-secondary px-4" href="about_us.html">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-secondary px-4" href="book_a_party.php">Book a Party</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link btn btn-outline-secondary px-4" href="https://order.online/store/dick-clark's-family-restaurant-princeton-24897238/?hideModal=true&pickup=true&redirected=true" target="_blank">Order Online</a>
-                    </li>
+      <div class="container-fluid h-50">
+        <a class="navbar-brand" href="index.html">
+          <img src="resources/dcLogo.png" alt="Dick Clark's" style="width:50px" class="rounded-5">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link btn btn-secondary px-4 text-light" href="hours_and_location.html">Hours & Location</a>
+            </li>
+            <li class="nav-item">
+              <div class="dropdown">
+                <button type="button" class="btn btn-dark px-4 dropdown-toggle text-light" data-bs-toggle="dropdown">Menu</button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item btn btn-secondary" href="menu.html">DC Menu</a></li>
+                  <li><a class="dropdown-item btn btn-secondary" href="catering_menu.html">Catering Menu</a></li>
                 </ul>
-            </div>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-secondary px-4 text-light" href="about_us.html">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-secondary px-4 text-light" href="book_a_party.php">Book a Party</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link btn btn-outline-secondary px-4 text-light" href="https://order.online/store/dick-clark's-family-restaurant-princeton-24897238/?hideModal=true&pickup=true&redirected=true" target="_blank">Order Online</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
     <?php
